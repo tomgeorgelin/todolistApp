@@ -1,36 +1,23 @@
-# todolist 
+# todolistApp
 
-Projet de Conception et développement d'applications mobiles (cordova & onsenui)
-@IUT Nancy Charlemagne
-2019-2020
+Projet  Conceptioden et développement d'une application mobile (cordova & onsenui)
 
- - Baudon Nicolas
- - Georgelin Tom
+Disponible pour android et ios !
 
 ## Fonctionnement 
 
-Ce projet a pour but de modifier une application de todolist et d'y ajouter des fonctionnalités. 
 Dans cette application vous pourrez créer des tâches, avec ou sans catégorie. 
 Les tâches ont 3 états différents : en attente, en cours et finie. Vous pourrez bien évidemment naviguer entre tous les états.
 
 ## Les fonctionnalités implémentées 
 
-|Numéro |Fonctionnalités obligatoires| Fonctionnalités prioritaires | Fonctionnalités supplémentaires |
-|:--:|:--:|:--:|:--:|
-| O1 | ✔️ |  |  |
-|O2 | ✔️ |  |  |
-|O3 | ✔️ |  |  |
-|O4 | ✔️ |  |  |
-| P1 |  | ✔️ |  |
-| P2 |  | ✔️ |  |
-| P3 |  | ✔️ |  |
-| P4 |  | ✔️ |  |
-| S1 |  |  | ✔️ |
-| S2 |  |  | ✔️ |
-| S3 |  |  | ❌ |
-| S4 |  |  | ✔️ |
-| S5 |  |  | ✔️ |
-| S6 |  |  | ❌ |
-| S7 |  |  | ✔️ |
 
+
+✔️ Persistance des données 
+✔️ 3  états pour chaque tâche (en attente, en cours et validé)
+✔️ Suppression tâche pas tâche, de toutes les tâches d'une catégorie ou de toutes les tâches de l'application
+✔️ Ajout de catégories 
+✔️ Possibilité de fixer des deadlines
+✔️ Suppression des tâches dont la deadline est dépassée  
+✔️ Tri par date et ordre alphabétique 
 ## 
