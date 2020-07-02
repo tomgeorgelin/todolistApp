@@ -1,0 +1,11 @@
+{
+  "background_color": "#FFF",
+  "display": "standalone",
+  "name": "Todolist",
+  "short_name": "Todolist",
+  "version": "io.cordova.hellocordova",
+  "description": "Todolist app.",
+  "author": "Tom Georgelin and Nicolas Baudon",
+  "icons": [],
+  "start_url": "index.html"
+}

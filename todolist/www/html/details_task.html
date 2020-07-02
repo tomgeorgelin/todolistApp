@@ -1,0 +1,74 @@
+<ons-page id="detailsTaskPage">
+  <ons-toolbar>
+    <div class="left"><ons-back-button>Back</ons-back-button></div>
+    <div class="center">Task Details</div>
+    <div class="right">
+      <ons-toolbar-button component="button/save-task">
+        <ons-if platform="android">
+          <ons-icon icon="md-save"></ons-icon>
+        </ons-if>
+        <ons-if platform="ios other">
+          Sauvegarder
+        </ons-if>
+      </ons-toolbar-button>
+    </div>
+  </ons-toolbar>
+
+  <ons-list-title>Modifier vos tâches</ons-list-title>
+  <ons-list>
+    <ons-list-item modifier="nodivider">
+      <ons-if platform="ios other" class="left left-label">
+        Titre
+      </ons-if>
+      <div class="center">
+        <ons-input id="title-input" type="text" placeholder="I want to..." float></ons-input>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <ons-if platform="ios other" class="left left-label">
+        Catégorie
+      </ons-if>
+      <div class="center">
+        <ons-label>Choissez ou créez une catégorie</ons-label>
+        <ons-input id="choose-sel-input" type="text" placeholder="Insérez une catégorie"></ons-input><br>
+        <ons-select id="choose-sel">
+          <option value="noCat">Selectionnez une catégorie</option>
+        </ons-select>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <ons-if platform="ios other" class="left left-label">
+        Description
+      </ons-if>
+      <div class="center">
+        <ons-input id="description-input" type="text" placeholder="Description" float></ons-input>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <div class="center">
+        <ons-label>Choissez une date butoir : </ons-label>
+        <ons-input id="date-input" type="date" float></ons-input>
+      </div>
+    </ons-list-item>
+  </ons-list>
+
+  <ons-list-title>Autres options</ons-list-title>
+  <ons-list>
+    <ons-list-item modifier="nodivider">
+      <label class="center" for="inner-highlight-input">
+        C'est important ?
+      </label>
+      <div class="right">
+        <ons-switch id="highlight-input" input-id="inner-highlight-input"></ons-switch>
+      </div>
+    </ons-list-item>
+    <ons-list-item modifier="nodivider">
+      <label class="center" for="inner-urgent-input">
+        C'est urgent ?
+      </label>
+      <div class="right">
+        <ons-switch id="urgent-input" input-id="inner-urgent-input" disabled></ons-switch>
+      </div>
+    </ons-list-item>
+  </ons-list>
+</ons-page>

@@ -1,0 +1,38 @@
+<ons-page id="helpPage">
+  <ons-toolbar>
+    <div class="left"><ons-back-button>À faire</ons-back-button></div>
+    <div class="center">Centre d'aide</div>
+  </ons-toolbar>
+
+  <ons-list>
+    <div class="content">
+      <ons-list>
+        <ons-list-header>Explications des différents états</ons-list-header>
+        <ons-list-item><div class="left">En attente : ce sont les tâches actuellement en attente</div></ons-list-item>
+
+        <ons-list-item><div class="left">En cours : ce sont les tâches actuellement en cours</div></ons-list-item>
+
+        <ons-list-item><div class="left">Finies : ce sont les tâches finies</div></ons-list-item>
+
+        <ons-list-item><div class="left">Expirées : ce sont les tâches dont la date butoir a été dépassée</div></ons-list-item>
+      </ons-list>
+
+      <ons-list>
+        <ons-list-header>Explications des icônes sur les tâches</ons-list-header>
+        <ons-list-item><ons-icon style="color: grey; padding-left: 4px" icon="ion-ios-trash-outline, material:md-delete"></ons-icon><div class="right">Cet icône vous permet de supprimer une tâche</div></ons-list-item>
+
+        <ons-list-item><ons-icon style="color: grey; padding-left: 4px" icon="ion-ios-trash-outline, material:md-replay"></ons-icon><div class="right">Cet icône vous permet de recommencer une tâche</div></ons-list-item>
+
+        <ons-list-item><ons-icon style="color: grey; padding-left: 4px" icon="ion-ios-trash-outline, material:md-hourglass-outline"></ons-icon><div class="right">Cet icône vous permet de passer une tâche à l'état "en cours"</div></ons-list-item>
+
+        <ons-list-item><ons-icon style="color: grey; padding-left: 4px" icon="ion-ios-trash-outline, material:md-check"></ons-icon><div class="right">Cet icône vous permet de passer une tâche à l'état "fini"</div></ons-list-item>
+      </ons-list>
+
+      <ons-list>
+        <ons-list-header>Explication tri</ons-list-header>
+        <ons-list-item><ons-icon style="color: grey; padding-left: 4px" icon="fa-sort-numeric-asc"></ons-icon><div class="right">Cet icône vous permet de trier la liste courante par ordre croissant. Sur les dates pour les tâches qui ont une date butoir, sinon sur les titres</div></ons-list-item>
+
+        <ons-list-item><ons-icon style="color: grey; padding-left: 4px" icon="fa-sort-numeric-desc"></ons-icon><div class="right">Cet icône vous permet de trier la liste courante par ordre décroissant. Sur les dates pour les tâches qui ont une date butoir, sinon sur les titres</div></ons-list-item>
+      </ons-list>
+    </div>
+</ons-page>

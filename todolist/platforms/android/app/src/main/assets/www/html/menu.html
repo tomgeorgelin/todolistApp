@@ -1,0 +1,28 @@
+<ons-page id="menuPage">
+  <ons-list-title><a href="https://github.com/NikolasBdn" target="_blank" class="authors">Nicolas Baudon</a> / <a href="https://github.com/totomdotcom" target="_blank" class="authors">Tom Georgelin</a></ons-list-title>
+  <ons-list-title>Par défaut</ons-list-title>
+  <ons-list id="default-category-list">
+    <ons-list-item tappable>
+      <div class="left">
+        <ons-radio name="categoryGroup" input-id="r-all" checked></ons-radio>
+      </div>
+      <label class="center" for="r-all">Toutes catégories</label>
+    </ons-list-item>
+    <ons-list-item tappable category-id="">
+      <div class="left">
+        <ons-radio name="categoryGroup" input-id="r-no"></ons-radio>
+      </div>
+      <label class="center" for="r-no">Sans catégorie</label>
+    </ons-list-item>
+  </ons-list>
+
+  <ons-list-title>Catégories</ons-list-title>
+  <ons-list id="custom-category-list">
+  </ons-list>
+  <div id="deleteAllButtonDivs">
+    <Button id="deleteAllButton">Supprimer toutes les tâches</Button>
+  </div>
+  <div id="deleteExpiredButtonDivs">
+    <Button id="deleteExpiredButton">Supprimer tâches expirées</Button>
+  </div>
+</ons-page>
